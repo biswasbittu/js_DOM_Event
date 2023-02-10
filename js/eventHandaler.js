@@ -8,3 +8,19 @@ document.getElementById('event-lisenter').addEventListener('click', function(){
     handlerStatus.innerText='Hii! Devil. GO! GO!.....Go Some More'
     handlerStatus.style.color='blue';
 })
+
+function pageTitle(){
+    const maiTitleChange=document.getElementById('page-title');
+    maiTitleChange.innerText='Hellow! Bittu';
+} 
+
+
+document.getElementById('btn-update').addEventListener('click', function(){
+    const inputField=document.getElementById('input-fiend');
+    const inputText=inputField.value;
+    const p=document.getElementById('input-text-display');
+    p.innerText=inputText;
+    inputField.value='';
+
+
+})
